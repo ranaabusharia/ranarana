@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Company</title>
+    <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ServiceCo</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section id="landing" class="landing">
+        <img src="logo-removebg-preview.png" alt="" width="142px" height="150px">
+        <h2 >  مرحبا بكم في شركة الخدمة التقنية
+        </h2>
+        <button onclick="window.location.href='#services'">اكتشف خدماتنا
+        </button>
+    </section>
+  
+    <section id="services" class="services">
+        <h2>خدماتنا</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="a.png" alt="Service 1">
+                <h3>استشارات
+                </h3>
+                <p>نصائح واستراتيجيات الخبراء لتحسين عملك.</p>
+            </div>
+            <div class="card">
+                <img src="b.png" alt="Service 2">
+                <h3>التخطيط المالي
+                </h3>
+                <p>حلول مالية آمنة وفعالة لمستقبلك.
+                </p>
+            </div>
+            <div class="card">
+                <img src="c.png" alt="Service 3">
+                <h3>الدعم الفني</h3>
+                <p>دعم فني موثوق للحفاظ على تشغيل أنظمتك بسلاسة.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+   
+    <section id="contact" class="contact">
+        <h2>اتصل بنا
+        </h2>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 ServiceCo. All rights reserved.</p>
+        <p>Email: abushariaarana@gmail.com</p>
+        <div class="social-icons">
+            <a href="#">Facebook :Rana Abu Shariaa</a> 
+        </div>
+    </footer>
+
+</body>
+</html>
